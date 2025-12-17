@@ -1,0 +1,79 @@
+
+/* 1. RESET defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #f4f6f8; /* Light blue-grey background */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* 2. CENTER THE CARD */
+main {
+    display: flex;
+    justify-content: center; /* Center horizontally (Left/Right) */
+    align-items: center;     /* Center vertically (Up/Down) */
+    padding: 20px;
+}
+
+/* Optional: Style the back link at top */
+.back-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+}
+
+/* 3. THE CARD STYLE */
+.signup-card {
+    background-color: rgb(239, 239, 239);
+    width: 100%;
+    max-width: 450px; /* Don't get wider than this on big screens */
+    padding: 40px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3); /* Soft shadow drop */
+}
+
+
+.form-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.form-header h1 {
+    font-size: 24px;
+    color: #2c3e50;
+}
+
+label {
+    display: block; /* Puts label ABOVE the input */
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.btn-submit{
+    background-color: #10469e; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #0d3d7a; /* Darker green on hover */
+}
